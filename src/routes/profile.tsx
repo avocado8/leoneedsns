@@ -197,7 +197,7 @@ export default function Profile() {
   return (
     <Wrapper>
       <AvatarUpload htmlFor="avatar">
-        <AvatarImg className="avatar-img" src={avatar ? avatar : "../../public/User.svg"} />
+        <AvatarImg className="avatar-img" src={avatar ? avatar : "/User.svg"} />
       </AvatarUpload>
       <AvatarInput onChange={onAvatarChange} type="file" id="avatar" />
       <Name>{username}</Name>
