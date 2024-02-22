@@ -4,6 +4,8 @@ import memimg1 from "../images/team/team_1.png";
 import memimg2 from "../images/team/team_2.png";
 import memimg3 from "../images/team/team_3.png";
 import memimg4 from "../images/team/team_4.png";
+import "../images/logo/logo_1.webp";
+import "../images/logo/logo_2.webp";
 
 const Wrapper = styled.div`
   width: 780px;
