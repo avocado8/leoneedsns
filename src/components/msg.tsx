@@ -62,7 +62,7 @@ const DeleteBtn = styled.button`
 
 export default function Msg({message, createdAt, username, userId, id}:IMsg){
   const user = auth.currentUser;
-  const anonymous = "../../public/User.svg";
+  const anonymous = "/User.svg";
   const time = new Date(createdAt);
   
   const fullTime = (time.getFullYear()).toString() + "-" + (time.getMonth() + 1).toString() + "-"
