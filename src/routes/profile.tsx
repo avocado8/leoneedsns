@@ -142,7 +142,7 @@ export default function Profile() {
       const photoRef = ref(storage, `avatars/${user.uid}`);
       await deleteObject(photoRef).then(() => {
         updateProfile(user, {
-          photoURL: "../../public/User.svg"
+          photoURL: "/User.svg"
         })
         setAvatar("");
       })
