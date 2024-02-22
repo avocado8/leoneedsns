@@ -4,8 +4,6 @@ import memimg1 from "../images/team/team_1.png";
 import memimg2 from "../images/team/team_2.png";
 import memimg3 from "../images/team/team_3.png";
 import memimg4 from "../images/team/team_4.png";
-import "../images/logo/logo_1.webp";
-import "../images/logo/logo_2.webp";
 
 const Wrapper = styled.div`
   width: 780px;
@@ -148,7 +146,7 @@ export default function Team() {
         <Title>Key Story</Title>
         {
           logoimgList.map((logo, index) => {
-            return <EventLogo src={`src/images/logo/logo_${logo}.webp`} key={index} />
+            return <EventLogo src={`/logo/logo_${logo}.webp`} key={index} />
           })
         }
       </EventStory>
@@ -160,7 +158,7 @@ export default function Team() {
             return(
               <SongElement key={index}
               onClick={() => window.open(value)}>
-                <SongImg src={`src/images/song/song_${key}.webp`} />
+                <SongImg src={`/song/song_${key}.webp`} />
               </SongElement>
             )
           })
