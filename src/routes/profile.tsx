@@ -191,7 +191,7 @@ export default function Profile() {
   })
 
   const imgStyle = {
-    backgroundImage: `url("../../../public/member_${likedCommentCid[0]}.png")`
+    backgroundImage: `url("/member_${likedCommentCid[0]}.png")`
   }
 
   return (
@@ -209,7 +209,7 @@ export default function Profile() {
 </svg>
         </RemoveImgBtn>
         <LogoutBtn onClick={onLogOut}>
-          <LogoutImg src="../../public/LogOut.svg" />
+          <LogoutImg src="/LogOut.svg" />
         </LogoutBtn>
       </Btns>
 

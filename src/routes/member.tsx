@@ -31,19 +31,19 @@ const MemImg = styled.div`
   border: 2px solid;
   border-radius: 50%;
   &.first {
-    background-image: url("../../public/member_1.png");
+    background-image: url("/member_1.png");
     border-color: #33AAEE;
   }
   &.second {
-    background-image: url("../../public/member_2.png");
+    background-image: url("/member_2.png");
     border-color: #FFDE45;
   }
   &.third {
-    background-image: url("../../public/member_3.png");
+    background-image: url("/member_3.png");
     border-color: #EE6666;
   }
   &.fourth {
-    background-image: url("../../public/member_4.png");
+    background-image: url("/member_4.png");
     border-color: #BBDE22;
   }
 `;

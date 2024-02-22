@@ -6,7 +6,7 @@ import { auth, db } from "../../firebase.ts"
 import { useEffect, useState } from "react"
 
 const style = {
-  backgroundImage: `url("../../../public/member_4.png")`,
+  backgroundImage: `url("/member_4.png")`,
   border: `2px solid #BBDE22`
 }
 
